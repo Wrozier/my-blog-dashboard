@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-//import { AngularFireModule } from '@angular/fire';
+import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment.prod'; // Check the relative path here
 
 import { AppRoutingModule } from './app-routing.module';
@@ -20,7 +20,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    //AngularFireModule.initializeApp(environment.firebaseConfig)
+    AngularFireModule.initializeApp(environment.firebaseConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]
