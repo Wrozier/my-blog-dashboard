@@ -7,7 +7,6 @@ export const environment = {
         storageBucket: "ang-blog-76f3f.appspot.com",
         messagingSenderId: "764794259669",
         appId: "1:764794259669:web:d3b1a095007fe13c87fa5c"
-      }
-    
-};
+      }  
+    };
 
